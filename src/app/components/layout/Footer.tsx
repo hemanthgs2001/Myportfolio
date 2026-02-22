@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Your Name</h3>
+            <h3 className="text-2xl font-bold mb-4">Hemanth Kumar GS</h3>
             <p className="text-gray-400 mb-4">
               Full Stack Developer creating amazing web experiences
             </p>
@@ -33,15 +33,15 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: your.email@example.com</li>
-              <li>Location: Your City, Country</li>
-              <li>Available for freelance work</li>
+              <li>Email: hemanthgs2001@gmail.com</li>
+              <li>Location: Banglore, Karnataka, India.</li>
+              <li>Open to work</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Hemanth Kuamr GS. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -25,7 +25,7 @@ export default function About() {
           >
             <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/images/profile.jpg"
+                src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=4000&h=2600&fit=crop"
                 alt="About me"
                 fill
                 className="object-cover"
@@ -40,48 +40,48 @@ export default function About() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold mb-4">
-              Passionate Developer Creating Digital Excellence
+              Full-Stack Developer | Software Engineer
             </h3>
             
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a Full Stack Developer with 5+ years of experience in building
-                web applications that solve real-world problems. My journey in tech
-                started with a curiosity for how things work, and evolved into a
-                passion for creating elegant solutions.
+                I'm a Full-Stack Developer with 1+ years of experience at Hachita Solutions India Private Limited, 
+                specializing in building scalable web applications using Node.js, React.js, Next.js, and MongoDB. 
+                My expertise includes developing RESTful APIs, implementing payment integrations with Razorpay, 
+                and creating responsive user interfaces with Tailwind CSS.
               </p>
               <p>
-                I specialize in React, Next.js, and Node.js, but I'm always eager to
-                learn new technologies and methodologies. I believe in writing clean,
-                maintainable code and creating intuitive user experiences.
+                Throughout my career progression from Trainee Engineer to Software Developer, I've successfully 
+                delivered multiple projects including a complete company website, end-to-end billing applications, 
+                an online photo ordering platform (FotoMandir), and a comprehensive HRMS solution (OrkOps AI) 
+                with role-based access control, attendance tracking, and leave management workflows.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with the
-                developer community.
+                I hold a B.E in Computer Science Engineering from P.E.S. Institute of Technology and Management 
+                with a 7.5 CGPA.
               </p>
             </div>
             
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Name:</h4>
-                <p className="text-gray-600 dark:text-gray-400">Your Name</p>
+                <p className="text-gray-600 dark:text-gray-400">Hemanth Kumar G S</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Email:</h4>
-                <p className="text-gray-600 dark:text-gray-400">your.email@example.com</p>
+                <p className="text-gray-600 dark:text-gray-400">hemanthgs2001@gmail.com</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Location:</h4>
-                <p className="text-gray-600 dark:text-gray-400">Your City, Country</p>
+                <p className="text-gray-600 dark:text-gray-400">Bengaluru, Karnataka, India</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Availability:</h4>
-                <p className="text-gray-600 dark:text-gray-400">Freelance/Full-time</p>
+                <h4 className="font-semibold mb-2">Education:</h4>
+                <p className="text-gray-600 dark:text-gray-400">B.E CSE, CGPA - 7.5 (2019-2023)</p>
               </div>
             </div>
             
-            <Button href="/resume.pdf" className="mt-8">
+            <Button href="https://drive.google.com/file/d/1Vm1TkywwohQZnuRKKvN8xuldiRDT_x6i/view?usp=sharing" className="mt-8">
               Download Resume
             </Button>
           </motion.div>

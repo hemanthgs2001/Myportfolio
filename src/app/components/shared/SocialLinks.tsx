@@ -10,13 +10,9 @@ import {
 import { SiLeetcode } from 'react-icons/si'
 
 const socialLinks = [
-  { name: 'GitHub', icon: FaGithub, url: 'https://github.com/yourusername', color: 'hover:text-gray-900' },
+  { name: 'GitHub', icon: FaGithub, url: 'https://github.com/hemanthgs2001', color: 'hover:text-gray-900' },
   { name: 'LinkedIn', icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', color: 'hover:text-blue-600' },
-  { name: 'Twitter', icon: FaTwitter, url: 'https://twitter.com/yourusername', color: 'hover:text-blue-400' },
   { name: 'Instagram', icon: FaInstagram, url: 'https://instagram.com/yourusername', color: 'hover:text-pink-600' },
-  { name: 'YouTube', icon: FaYoutube, url: 'https://youtube.com/@yourusername', color: 'hover:text-red-600' },
-  { name: 'Dev.to', icon: FaDev, url: 'https://dev.to/yourusername', color: 'hover:text-gray-900' },
-  { name: 'LeetCode', icon: SiLeetcode, url: 'https://leetcode.com/yourusername', color: 'hover:text-yellow-600' },
 ]
 
 export default function SocialLinks() {

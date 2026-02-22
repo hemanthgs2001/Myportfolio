@@ -5,7 +5,8 @@ import {
   FaJava,
   FaAws,
   FaDocker,
-  FaFigma 
+  FaFigma,
+  FaGithub 
 } from 'react-icons/fa'
 import { 
   SiTypescript, 
@@ -26,7 +27,8 @@ import {
   SiDjango,
   SiFlask,
   SiKubernetes,
-  SiTerraform
+  SiTerraform,
+  SiVisualstudiocode
 } from 'react-icons/si'
 import { IconType } from 'react-icons'
 
@@ -43,38 +45,24 @@ export const skills: Skill[] = [
   { name: 'Next.js', icon: SiNextdotjs, level: 'Advanced', category: 'frontend' },
   { name: 'TypeScript', icon: SiTypescript, level: 'Advanced', category: 'frontend' },
   { name: 'JavaScript', icon: SiJavascript, level: 'Advanced', category: 'frontend' },
-  { name: 'Vue.js', icon: SiVuedotjs, level: 'Intermediate', category: 'frontend' },
   { name: 'Redux', icon: SiRedux, level: 'Advanced', category: 'frontend' },
   { name: 'Tailwind CSS', icon: SiTailwindcss, level: 'Advanced', category: 'frontend' },
-  { name: 'SASS', icon: SiSass, level: 'Advanced', category: 'frontend' },
   
   // Backend
   { name: 'Node.js', icon: FaNodeJs, level: 'Advanced', category: 'backend' },
-  { name: 'Python', icon: FaPython, level: 'Intermediate', category: 'backend' },
   { name: 'Java', icon: FaJava, level: 'Intermediate', category: 'backend' },
-  { name: 'Django', icon: SiDjango, level: 'Intermediate', category: 'backend' },
-  { name: 'Flask', icon: SiFlask, level: 'Intermediate', category: 'backend' },
-  { name: 'GraphQL', icon: SiGraphql, level: 'Advanced', category: 'backend' },
   
   // Database
   { name: 'MongoDB', icon: SiMongodb, level: 'Advanced', category: 'database' },
   { name: 'PostgreSQL', icon: SiPostgresql, level: 'Advanced', category: 'database' },
   { name: 'Firebase', icon: SiFirebase, level: 'Advanced', category: 'database' },
   
-  // DevOps
-  { name: 'AWS', icon: FaAws, level: 'Intermediate', category: 'devops' },
-  { name: 'Docker', icon: FaDocker, level: 'Intermediate', category: 'devops' },
-  { name: 'Kubernetes', icon: SiKubernetes, level: 'Beginner', category: 'devops' },
-  { name: 'Terraform', icon: SiTerraform, level: 'Beginner', category: 'devops' },
+  // DevOps & Tools
   { name: 'Git', icon: SiGit, level: 'Advanced', category: 'devops' },
+  { name: 'VS Code', icon: SiVisualstudiocode, level: 'Advanced', category: 'devops' },
+  { name: 'GitHub', icon: FaGithub, level: 'Advanced', category: 'devops' },
+  { name: 'Webpack', icon: SiWebpack, level: 'Intermediate', category: 'devops' },
   
   // Testing
-  { name: 'Jest', icon: SiJest, level: 'Intermediate', category: 'testing' },
-  { name: 'Cypress', icon: SiCypress, level: 'Intermediate', category: 'testing' },
-  
-  // Design
-  { name: 'Figma', icon: FaFigma, level: 'Intermediate', category: 'design' },
-  
-  // Tools
-  { name: 'Webpack', icon: SiWebpack, level: 'Intermediate', category: 'devops' },
+  { name: 'Manual Testing', icon: SiJest, level: 'Intermediate', category: 'testing' },
 ]
