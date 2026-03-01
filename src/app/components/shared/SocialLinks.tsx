@@ -12,7 +12,6 @@ import { SiLeetcode } from 'react-icons/si'
 const socialLinks = [
   { name: 'GitHub', icon: FaGithub, url: 'https://github.com/hemanthgs2001', color: 'hover:text-gray-900' },
   { name: 'LinkedIn', icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', color: 'hover:text-blue-600' },
-  { name: 'Instagram', icon: FaInstagram, url: 'https://instagram.com/yourusername', color: 'hover:text-pink-600' },
 ]
 
 export default function SocialLinks() {
@@ -27,7 +26,7 @@ export default function SocialLinks() {
           className={`text-gray-600 dark:text-gray-400 ${link.color} transition-colors hover:scale-110 transform duration-200`}
           aria-label={link.name}
         >
-          <link.icon className="w-5 h-5" />
+          <link.icon className="w-10 h-10" />
         </Link>
       ))}
     </div>

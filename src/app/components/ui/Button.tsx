@@ -10,6 +10,8 @@ interface ButtonProps {
   className?: string
   type?: 'button' | 'submit' | 'reset'
   disabled?: boolean
+  target?: string  
+  rel?: string 
 }
 
 export default function Button({
@@ -21,6 +23,8 @@ export default function Button({
   className = '',
   type = 'button',
   disabled = false,
+  target,
+  rel,
 }: ButtonProps) {
   const baseStyles = "inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2"
   
@@ -40,7 +44,12 @@ export default function Button({
   
   if (href) {
     return (
-      <Link href={href} className={classes}>
+      <Link 
+        href={href} 
+        className={classes}
+        target={target}
+        rel={rel}
+      >
         {children}
       </Link>
     )

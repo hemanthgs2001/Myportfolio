@@ -25,7 +25,7 @@ export default function About() {
           >
             <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=4000&h=2600&fit=crop"
+                src="/images/image10.png"
                 alt="About me"
                 fill
                 className="object-cover"
@@ -81,7 +81,12 @@ export default function About() {
               </div>
             </div>
             
-            <Button href="https://drive.google.com/file/d/1Vm1TkywwohQZnuRKKvN8xuldiRDT_x6i/view?usp=sharing" className="mt-8">
+            <Button 
+              href="https://drive.google.com/file/d/1Vm1TkywwohQZnuRKKvN8xuldiRDT_x6i/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8"
+            >
               Download Resume
             </Button>
           </motion.div>

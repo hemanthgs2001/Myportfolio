@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import SocialLinks from '../shared/SocialLinks'
+import Link from "next/link";
+import SocialLinks from "../shared/SocialLinks";
 
 export default function Footer() {
   return (
@@ -13,13 +13,13 @@ export default function Footer() {
             </p>
             <SocialLinks />
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {['Home', 'About', 'Projects', 'Contact'].map((item) => (
+              {["Home", "About", "Projects", "Contact"].map((item) => (
                 <li key={item}>
-                  <Link 
+                  <Link
                     href={`/#${item.toLowerCase()}`}
                     className="text-gray-400 hover:text-white transition-colors"
                   >
@@ -29,21 +29,25 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Email: hemanthgs2001@gmail.com</li>
+              <li>Phone Number: +91 9876543210</li>
               <li>Location: Banglore, Karnataka, India.</li>
               <li>Open to work</li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Hemanth Kuamr GS. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Hemanth Kuamr GS. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }

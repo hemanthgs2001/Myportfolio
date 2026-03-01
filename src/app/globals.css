@@ -34,6 +34,17 @@
   }
 }
 
+/* utilities for flip card */
+.perspective {
+  perspective: 1000px;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotateY-180 {
+  transform: rotateY(180deg);
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
