@@ -94,13 +94,15 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 flex items-center gap-2">
-              Hi, I'm{' '}
-              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Hemanth Kumar GS
-              </span>
-              <span className="text-yellow-400 text-3xl animate-bounce">👋</span>
-            </h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 flex flex-col md:flex-row md:items-center gap-2">
+  <span>Hi, I'm</span>
+
+  <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+    Hemanth Kumar GS
+  </span>
+
+  <span className="text-yellow-400 text-3xl animate-bounce">👋</span>
+</h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-4">
               Full Stack Developer | Software Engineer
             </p>
