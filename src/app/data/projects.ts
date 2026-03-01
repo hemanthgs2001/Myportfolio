@@ -93,7 +93,7 @@ export const projects: Project[] = [
     title: "FotoMandir - Online Photo Ordering Platform",
     description:
       "Customizable photo frame selection and ordering platform with order tracking workflows. Built APIs for orders, user profiles, and gallery management. Features seamless ordering experience and real-time order status updates.",
-    image: "/images/Screenshot.png",
+    image: "/images/image11.png",
     technologies: [
       "React.js",
       "Node.js",
