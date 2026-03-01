@@ -30,7 +30,7 @@ function SkillsRotator() {
 
   return (
     <>
-      <p className="text-lg text-white dark:text-gray-200 mb-2 h-10">
+      <p className="text-lg text-gray-600 dark:text-gray-200 mb-2 h-10">
         Skilled in{' '}
         <motion.span
           key={index}
