@@ -80,15 +80,7 @@ export default function About() {
                 <p className="text-gray-600 dark:text-gray-400">B.E CSE, CGPA - 7.5 (2019-2023)</p>
               </div>
             </div>
-            
-            <Button 
-              href="https://drive.google.com/file/d/1Vm1TkywwohQZnuRKKvN8xuldiRDT_x6i/view?usp=sharing" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-8"
-            >
-              Download Resume
-            </Button>
+        
           </motion.div>
         </div>
       </Container>
