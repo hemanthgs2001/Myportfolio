@@ -85,7 +85,7 @@ function TypingMessage() {
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+   <section className="min-h-screen pt-16 md:pt-20 flex items-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
