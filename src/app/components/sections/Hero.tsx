@@ -85,7 +85,7 @@ function TypingMessage() {
 
 export default function Hero() {
   return (
-   <section className="min-h-screen pt-16 md:pt-20 flex items-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <section className="min-h-screen pt-16 md:pt-20 flex items-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -94,22 +94,20 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 flex flex-col md:flex-row md:items-center gap-2">
-  <span>Hi, I'm</span>
-
-  <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-    Hemanth Kumar GS
-  </span>
-
-  <span className="text-yellow-400 text-3xl animate-bounce">👋</span>
-</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 flex flex-wrap items-center gap-2">
+              <span>Hi, I'm</span>
+              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                Hemanth Kumar GS
+              </span>
+              <span className="text-yellow-400 text-3xl animate-bounce inline-block">👋</span>
+            </h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-4">
               Full Stack Developer | Software Engineer
             </p>
             {/* rotating skills */}
             <SkillsRotator />
             
-            <div className="flex gap-4 mb-8">
+            <div className="flex flex-wrap gap-4 mb-8">
               <Button href="#projects">View My Work</Button>
               <Button href="#contact" variant="outline">Contact Me</Button>
             </div>
