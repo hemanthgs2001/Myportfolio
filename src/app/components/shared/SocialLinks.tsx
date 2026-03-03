@@ -11,7 +11,7 @@ import { SiLeetcode } from 'react-icons/si'
 
 const socialLinks = [
   { name: 'GitHub', icon: FaGithub, url: 'https://github.com/hemanthgs2001', color: 'hover:text-gray-900' },
-  { name: 'LinkedIn', icon: FaLinkedin, url: 'https://linkedin.com/in/yourusername', color: 'hover:text-blue-600' },
+  { name: 'LinkedIn', icon: FaLinkedin, url: 'https://www.linkedin.com/in/hemanth-kumar-g-s-8106b6390', color: 'hover:text-blue-600' },
 ]
 
 export default function SocialLinks() {
