@@ -114,7 +114,7 @@ export default function Hero() {
 
             <div className="mt-8 mb-6">
               <a
-                href="https://drive.google.com/file/d/1Vm1TkywwohQZnuRKKvN8xuldiRDT_x6i/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mS4BxvtLocBVqj7OwQwdSPsHZzohAKqH/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download resume"
@@ -215,7 +215,7 @@ function FlipCard() {
               <FaPhone className="text-blue-600 text-2xl" />
               <div>
                 <div className="text-sm text-gray-600 dark:text-gray-300">Phone</div>
-                <div className="text-base font-semibold">+91 9876543210</div>
+                <div className="text-base font-semibold">+91 9108430148</div>
               </div>
             </div>
 

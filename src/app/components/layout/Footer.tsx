@@ -34,7 +34,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Email: hemanthgs2001@gmail.com</li>
-              <li>Phone Number: +91 9876543210</li>
+              <li>Phone Number: +91 9108430148</li>
               <li>Location: Banglore, Karnataka, India.</li>
               <li>Open to work</li>
             </ul>
