@@ -17,6 +17,8 @@ function SkillsRotator() {
     'Next.js',
     'Tailwind CSS',
     'MongoDB',
+    'SQL',
+    'PostgreSQL',
     'Razorpay'
   ]
   const [index, setIndex] = useState(0)
@@ -114,7 +116,7 @@ export default function Hero() {
 
             <div className="mt-8 mb-6">
               <a
-                href="https://drive.google.com/file/d/1-i9TvyC11pcifbZrZHz7olIFbeyey8u4/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oW_MyVdxYI5d7p4PL3UZ09r_O_WRai1t/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download resume"
