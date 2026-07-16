@@ -21,7 +21,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Billing Applications",
+    title: "Multi-Category Catalog",
     description:
       "End-to-end billing and invoicing system with modules for products, purchases, vendors, and sales returns. Implemented PDF/Excel generation and automated email forwarding for report sharing. Features secure authentication and responsive UI.",
     image:
