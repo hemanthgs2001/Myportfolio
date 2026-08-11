@@ -116,7 +116,7 @@ export default function Hero() {
 
             <div className="mt-8 mb-6">
               <a
-                href="https://drive.google.com/file/d/1oW_MyVdxYI5d7p4PL3UZ09r_O_WRai1t/view?usp=sharing"
+                href="https://drive.google.com/file/d/1IjQ_RtBc1vCXlXGat9y4P51UiVQoaTxI/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download resume"
