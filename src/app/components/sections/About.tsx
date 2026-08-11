@@ -45,7 +45,7 @@ export default function About() {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a Full-Stack Developer with 1+ years of experience at Hachita Solutions India Private Limited, 
+                I'm a Full-Stack Developer with 2+ years of experience at Hachita Solutions India Private Limited, 
                 specializing in building scalable web applications using Node.js, React.js, Next.js, and MongoDB. 
                 My expertise includes developing RESTful APIs, implementing payment integrations with Razorpay, 
                 and creating responsive user interfaces with Tailwind CSS.

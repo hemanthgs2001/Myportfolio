@@ -79,5 +79,15 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://smart-bookmark-app-inky-nu.vercel.app",
     githubUrl: "https://github.com/hemanthgs/smart-bookmark"
-  }
+  },
+  {
+    id: 6,
+    title: "Restaurant-OS-AI-Powered-Restaurant",
+    description:"Architected and built a full-stack, three-tier restaurant management platform: a React.js frontend, a Node.js/Express + PostgreSQL (Sequelize) backend, and a dedicated Python FastAPI microservice for AI-powered features.",
+    image: "/images/Restaurent.png",
+    technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "Express.js", "OCR", "LLM"],
+    liveUrl: "https://restaurant-os-ai-powered-restaurant-phi.vercel.app/login",
+    githubUrl: "https://github.com/hemanthgs2001/RestaurantOS-AI-Powered-Restaurant-Management-Platform"
+  },
+
 ]

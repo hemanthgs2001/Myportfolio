@@ -28,7 +28,7 @@ export const experiences: Experience[] = [
     id: 3,
     position: "Trainee Engineer",
     company: "Hachita Solutions India Private Limited",
-    period: "Dec 2024 - Feb 2025",
+    period: "Jun 2024 - Feb 2025",
     description: "Started as a trainee, quickly contributing to live projects. Assisted in designing and developing the official company website using React.js and Tailwind CSS. Gained hands-on experience with backend API development using Node.js and MongoDB, focusing on building reusable components and ensuring an SEO-friendly architecture.",
     technologies: ["JavaScript", "React.js", "Node.js", "MongoDB", "Tailwind CSS", "Git"]
   }

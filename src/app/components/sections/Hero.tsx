@@ -46,7 +46,7 @@ function SkillsRotator() {
         </motion.span>
       </p>
       <p className="text-md text-gray-600 dark:text-gray-400 mb-4 flex items-center">
-        I am a team player and have 1+ years of hands-on experience.
+        I am a team player and have 2+ years of hands-on experience.
         <span className="ml-2 text-red-500 text-2xl animate-bounce">🚀</span>
       </p>
       <TypingMessage />
@@ -225,7 +225,7 @@ function FlipCard() {
               <FaCalendarAlt className="text-blue-600 text-2xl" />
               <div>
                 <div className="text-sm text-gray-600 dark:text-gray-300">Experience</div>
-                <div className="text-base font-semibold">1+ year</div>
+                <div className="text-base font-semibold">2+ year</div>
               </div>
             </div>
 
